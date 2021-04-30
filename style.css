@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+form{
+    text-align:center;
+    background-color:#ffff00aa;
+    color:white;
+    text-shadow:0 0 10px black;
+    width:90%;
+    max-width:600px;
+    display:inline-block;
+    padding:20px;
+    box-sizing:border-box;
+    border-radius:10px;
+    margin-top:20px; 
+}
+html{
+    height:100%;
+}
+body{
+    background-image:url("траваы.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align:center;
+    min-height:100%;
+}
+button,input{
+    border:none;  
+    border-radius:5px;
+    line-height:40px;
+    padding:0 20px;
+    box-sizing:border-box;
+    font-size:20px;
+    font-family: 'Amatic SC', cursive;
+    margin:0 0 10px;
+}
+input{
+    width:45%;
+    margin:0 0 10px;
+}
+h1,h2{
+    font-family: 'Kelly Slab', cursive;
+    margin-bottom:20px;
+}
+@media (
+    max-width:600px
+){
+    button,input{
+        width:100%;
+    }
+}
+    
